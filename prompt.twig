@@ -1,0 +1,11 @@
+You are to be given a specification in YAML format for a design system component.
+  You are to generate a complete {{ platform }} component with styles and brief usage instructions which describes each property and example markup. You are to use the following tools: {{ platform }}. Please take a look at these specific details for that platform: {{ platformSpec }}
+  You are to use the following design tokens, for example brand-blue would transform into var(--brand-blue) or platform specific equivalent
+  {{ tokens }}. Use composition when it is specified as a dependency. Here are the other components you can use: {{ otherComponents }}.
+  Please respond in the following JSON schema componentTemplate is optional if the platform requires it:
+  { code: string,
+  styles: string,
+  template: string,
+  name: string,
+  usageInstructions: string
+  }

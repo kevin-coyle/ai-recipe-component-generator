@@ -1,0 +1,20 @@
+{
+  "name": "@kevincoyle/component-generator",
+  "version": "1.0.0",
+  "description": "An example component generator written in Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.23",
+    "@types/twig": "^1.12.16",
+    "dotenv": "^16.4.5",
+    "openai": "^4.28.4",
+    "ts-node": "^10.9.2",
+    "twig": "^1.17.1"
+  }
+}

@@ -1,0 +1,13 @@
+name: Button
+description: A button component
+props:
+  - name: text
+    type: string
+    description: The text to display on the button
+  - name: variant
+    type: string
+    description: The variant of the button
+    options:
+      - primary
+      - secondary
+      - tertiary

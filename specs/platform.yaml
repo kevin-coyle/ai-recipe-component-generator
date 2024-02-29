@@ -1,0 +1,14 @@
+platform: React
+dependencies:
+  - react
+  - typescript
+  - scss
+  - BEM
+  - classname library
+platformNotes:
+  - You must use the classnames library to help with the BEM syntax
+  - You must use the typescript types for the props
+  - You must use scss for the styles
+  - Use BEM for the class names
+  - Use CSS custom properties for the design tokens
+  - Use Typescript for the component
