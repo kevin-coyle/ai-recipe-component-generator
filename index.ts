@@ -23,6 +23,7 @@ const systemPrompt = template.render({
   platformSpec: platformSpecification,
   tokens: "brand-primary, brand-red, brand-green, brand-yellow",
 });
+
 async function generateComponent(): Promise<Component> {
   const response = await openai.chat.completions.create({
     messages: [
